@@ -1,10 +1,12 @@
-import styles from './page.module.css'
+import styles from './page.module.css';
 
 export default function Home() {
+
+  
   return (
     <main className={styles.main}>
-      <nav>
-        <ul>
+      <nav className={styles.nav}>
+        <ul className={styles.ul}>
           <li>Tatiana & Baptiste</li>
           <li>Programme</li>
           <li>Infos pratiques</li>
@@ -23,6 +25,7 @@ export default function Home() {
             Et en attendant le grand jour, un simple merci de faire partie de nos vies.
           </p>
           <h2>Décompte</h2>
+          <p id='countdown'></p>
         </div>
 
       </div>
