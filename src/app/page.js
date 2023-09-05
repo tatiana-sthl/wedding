@@ -1,7 +1,15 @@
+'use client';
+
 import styles from './page.module.css';
+import { useEffect } from 'react';
+import './countdown.js';
 
 export default function Home() {
 
+  useEffect(() => {
+    // Appelez la fonction de mise à jour du décompte
+    updateCountdown();
+  }, []);
   
   return (
     <main className={styles.main}>
