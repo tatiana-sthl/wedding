@@ -11,11 +11,10 @@ export default function Home() {
     <main className={styles.main}>
       <nav className={styles.nav}>
         <ul className={styles.ul}>
-          <li>Tatiana & Baptiste</li>
-          <li>Programme</li>
-          <li>Infos pratiques</li>
-          <li>RSVP</li>
-          <li>Galerie</li>
+          <li><a href="#">Tatiana & Baptiste</a></li>
+          <li className='center'><a href="#">Programme</a></li>
+          <li className='upward'><a href="#">Infos pratiques</a></li>
+          <li className='forward'><a href="#">RSVP</a></li>
         </ul>
       </nav>
       
