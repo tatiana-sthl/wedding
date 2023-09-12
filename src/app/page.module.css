@@ -1,8 +1,11 @@
-.main {
-  margin: 0 5rem;
+.customBackground {
+  background-position-x: center;
   background-image: url("../img/Design\ sans\ titre.png");
   background-repeat: no-repeat;
-  background-size: cover;
+}
+
+.main {
+  margin: 0 20vw;
   border: red solid 1px;
 }
 
