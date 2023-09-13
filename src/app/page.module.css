@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600;6..96,700&family=Josefin+Sans:wght@100;200;300;400&family=Syne:wght@400;500;600&display=swap');
+
 .customBackground {
   background-position-x: center;
-  background-image: url("../img/Design\ sans\ titre.png");
+  background-image: url("../img/bg.png");
   background-repeat: no-repeat;
+  background-size: 58% auto;
 }
 
 .main {
   margin: 0 20vw;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 
 .ul {
   display: flex;
+  justify-content: space-between;
   list-style: none;
   align-items: center;
   background: #fff;
@@ -39,7 +44,7 @@
   left: 0;
   height: 3px;
   width: 0%;
-  background: #34efdf;
+  background: #000000;
   border-radius: 12px;
   transition: all 0.4s ease;
 }
@@ -74,4 +79,23 @@
 .ul li.forward a:hover:before {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+.textePresentation {
+  background-color: rgb(109, 158, 130, 0.5);
+  padding: 2vw 6vw;
+  border-radius: 12px;
+  margin: 20vw 0;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.h1 {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 59px;
+}
+
+.p {
+  text-align: justify;
+  font-size:x-large;
+  line-height: 1.2;
 }
