@@ -85,13 +85,19 @@
   background-color: rgb(109, 158, 130, 0.5);
   padding: 2vw 6vw;
   border-radius: 12px;
-  margin: 20vw 0;
+  margin: 5vw 0;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 .h1 {
   font-family: 'Bodoni Moda', serif;
   font-size: 59px;
+  text-align: center;
+}
+
+.h2 {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 40px;
 }
 
 .p {
