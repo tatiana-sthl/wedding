@@ -28,6 +28,14 @@ export default function Home() {
       </div>
       <div>
         <h2 className={styles.h2}>Tout commence par...</h2>
+        <div className={styles.planning}>
+          <div className={styles.orga}>
+
+          </div>
+          <div className={styles.orga}>
+
+          </div>
+        </div>
       </div>
     </main>
   )

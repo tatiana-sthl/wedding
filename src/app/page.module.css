@@ -105,3 +105,14 @@
   font-size:x-large;
   line-height: 1.2;
 }
+
+.planning {
+  display: flex;
+}
+
+.orga {
+  width: 100px;
+  height: 100px;
+  border: 1px red solid;
+
+}
