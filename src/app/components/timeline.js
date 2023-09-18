@@ -4,13 +4,16 @@ import styles from '../page.module.css';
 
 const Timeline = () => {
     useEffect(() => {
+        console.log('Composant Timeline chargé');
         const cards = document.querySelectorAll('.card');
     
         const handleScroll = () => {
+            console.log('Défilement détecté');
           cards.forEach((card, index) => {
             const rect = card.getBoundingClientRect();
             if (rect.top < window.innerHeight * 0.75) {
               card.classList.add('visible');
+              console.log('Carte visible :', card);
             }
           });
         };
