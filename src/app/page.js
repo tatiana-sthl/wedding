@@ -1,5 +1,7 @@
 'use client';
 import Timeline  from './components/timeline';
+import Rsvp  from './components/rsvp';
+
 
 import styles from './page.module.css';
 import './components/countdown.js';
@@ -28,6 +30,10 @@ export default function Home() {
       <div className={styles.presentation}>
         <h2 className={styles.h2}>Tout commence par...</h2>
         <Timeline />
+      </div>
+      <div className={styles.presentation}>
+        <h2 className={styles.h2}>Alors, vous venez ?</h2>
+        <Rsvp />
       </div>
     </main>
   )
