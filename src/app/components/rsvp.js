@@ -6,8 +6,8 @@ const Rsvp = () => {
 
   
   return (
-    <div>
-      
+    <div className={styles.textePresentation}>
+      <h2 className={styles.h2rsvp}>Confirmez ma présence</h2>      
     </div>
   );
 };
