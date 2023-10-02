@@ -100,6 +100,12 @@
   font-size: 40px;
 }
 
+.h2Right {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 40px;
+  text-align: right;
+}
+
 .h2rsvp {
   font-family: 'Bodoni Moda', serif;
   font-size: 40px;

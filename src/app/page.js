@@ -1,5 +1,6 @@
 'use client';
 import Timeline  from './components/timeline';
+import Logements  from './components/logements';
 import Rsvp  from './components/rsvp';
 
 
@@ -30,6 +31,10 @@ export default function Home() {
       <div className={styles.presentation}>
         <h2 className={styles.h2}>Tout commence par...</h2>
         <Timeline />
+      </div>
+      <div className={styles.presentation}>
+        <h2 className={styles.h2Right}>Et pour se loger</h2>
+        <Logements />
       </div>
       <div className={styles.presentation}>
         <h2 className={styles.h2}>Alors, vous venez ?</h2>
