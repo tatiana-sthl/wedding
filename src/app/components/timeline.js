@@ -10,8 +10,7 @@ const Timeline = () => {
 
     <VerticalTimeline
       lineColor='rgb(109, 158, 130, 0.5)'
-    >
-      
+    >      
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="15h"
@@ -19,10 +18,10 @@ const Timeline = () => {
         iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}
         
       >
-        <h3 className="vertical-timeline-element-title">Creative Director</h3>
-        <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+        <h3 className="vertical-timeline-element-title">Eglise</h3>
+        <h4 className="vertical-timeline-element-subtitle">Chauffour-lès-Bailly</h4>
         <p>
-          Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+          Rendez-vous à l'Eglise pour la cérémonie religieuse
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement

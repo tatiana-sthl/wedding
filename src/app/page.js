@@ -3,7 +3,6 @@ import Timeline  from './components/timeline';
 import Logements  from './components/logements';
 import Rsvp  from './components/rsvp';
 
-
 import styles from './page.module.css';
 import './components/countdown.js';
 

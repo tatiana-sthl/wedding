@@ -2,7 +2,6 @@
 
 .customBackground {
   background-position-x: center;
-  background-image: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: 58% auto;
 }
@@ -127,6 +126,8 @@
 }
 
 .verticaltimelineelementdate {
-  font-size: 20px!important;
+  font-size: 3vw!important;
+  padding: 0 1vw!important;
 }
+
 
