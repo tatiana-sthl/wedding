@@ -126,14 +126,7 @@
   min-height: 20vh;
 }
 
-.hidden {
-  opacity: 0;
-  transition: opacity 1s; /* Ajoutez ici la transition que vous souhaitez */
+.verticaltimelineelementdate {
+  font-size: 20px!important;
 }
-
-.show {
-  opacity: 1;
-  transition: opacity 1s; /* Assurez-vous d'avoir la même transition que 'hidden' */
-}
-
 
