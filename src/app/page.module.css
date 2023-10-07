@@ -128,7 +128,18 @@
 .verticaltimelineelementdate {
   font-size: 3vw!important;
   padding: 0 1vw!important;
+  color: #000000!important;
 }
 
+.divTimeline {
+  display: flex!important;
+}
 
+.divTimeline2 {
+  align-self: center;
+  font-size: 1.5vw;
+}
 
+.pTimeline {
+  font-size: 1.2vw!important;
+}

@@ -17,32 +17,47 @@ const Timeline = () => {
         date="15h"
         dateClassName={styles.verticaltimelineelementdate}
         iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}
-        
       >
-        <h3 className="vertical-timeline-element-title">Eglise</h3>
-        <h4 className="vertical-timeline-element-subtitle">Chauffour-lès-Bailly</h4>
-        <p>
-          Rendez-vous à l'Eglise pour la cérémonie religieuse
-        </p>
-        <Image
-          src='/img/eglise.jpg'
-          alt="Landscape picture"
-          width={800}
-          height={500}
-        />
+        <div className={styles.divTimeline}>
+          <Image
+            src='/img/eglise.jpg'
+            alt="Landscape picture"
+            width={110}
+            height={150}
+            className='iconTimeline'
+          />
+          <div className={styles.divTimeline2}> 
+            <h3 className="vertical-timeline-element-title">Eglise</h3>
+            <h4 className="vertical-timeline-element-subtitle">Chauffour-lès-Bailly</h4>
+            <p className={styles.pTimeline}>
+              Rendez-vous pour la cérémonie religieuse
+            </p>
+          </div>         
+        </div>     
       </VerticalTimelineElement>
+
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="16h"
         dateClassName={styles.verticaltimelineelementdate}
-        iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}
-        
+        iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}       
       >
-        <h3 className="vertical-timeline-element-title">Art Director</h3>
-        <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-        <p>
-          Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-        </p>
+        <div className={styles.divTimeline}>
+          <Image
+            src='/img/champagne.jpg'
+            alt="vin d'honneur"
+            width={120}
+            height={100}
+            className='iconTimeline'
+          />
+          <div className={styles.divTimeline2}> 
+            <h3 className="vertical-timeline-element-title">Eglise</h3>
+            <h4 className="vertical-timeline-element-subtitle">Chauffour-lès-Bailly</h4>
+            <p className={styles.pTimeline}>
+              Rendez-vous pour la cérémonie religieuse
+            </p>
+          </div>         
+        </div>    
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
