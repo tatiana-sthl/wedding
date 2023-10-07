@@ -1,4 +1,5 @@
 import styles from '../page.module.css';
+import Image from 'next/image'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -23,6 +24,12 @@ const Timeline = () => {
         <p>
           Rendez-vous à l'Eglise pour la cérémonie religieuse
         </p>
+        <Image
+          src='/img/eglise.jpg'
+          alt="Landscape picture"
+          width={800}
+          height={500}
+        />
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
