@@ -27,6 +27,7 @@ const Timeline = () => {
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="16h"
+        dateClassName={styles.verticaltimelineelementdate}
         iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}
         
       >
@@ -38,7 +39,8 @@ const Timeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2008 - 2010"
+        date="18h"
+        dateClassName={styles.verticaltimelineelementdate}
         iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}
         
       >
@@ -50,7 +52,8 @@ const Timeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="2006 - 2008"
+        date="19h"
+        dateClassName={styles.verticaltimelineelementdate}
         iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}
         
       >
@@ -58,18 +61,6 @@ const Timeline = () => {
         <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
         <p>
           User Experience, Visual Design
-        </p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--education"
-        date="April 2013"
-        iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}
-        
-      >
-        <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-        <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-        <p>
-          Strategy, Social Media
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>
