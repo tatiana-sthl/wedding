@@ -5,6 +5,8 @@ import Rsvp  from './components/rsvp';
 
 import styles from './page.module.css';
 import './components/countdown.js';
+import Image from 'next/image'
+
 
 export default function Home() {
  
@@ -18,6 +20,15 @@ export default function Home() {
           <li className='forward'><a href="#">RSVP</a></li>
         </ul>
       </nav>
+
+      <div className={styles.textePresentationTest}>
+        <h1 >Samedi 7 septembre 2024</h1>
+        <p >
+          Enfin ! Après 10 ans de vie commune (12 quand nous serons à la date du mariage), nous allons nous marier et nous n’avons qu’une hâte, pouvoir le fêter avec vous. 
+          Pour cela, vous trouverez sur ce site toutes les informations nécessaire, et surtout le formulaire de confirmation de votre présence.
+          Et en attendant le grand jour, un simple merci de faire partie de nos vies.
+        </p>
+      </div>
       
       <div className={styles.textePresentation}>
         <h1 className={styles.h1}>Samedi 7 septembre 2024</h1>
@@ -26,6 +37,13 @@ export default function Home() {
           Pour cela, vous trouverez sur ce site toutes les informations nécessaire, et surtout le formulaire de confirmation de votre présence.
           Et en attendant le grand jour, un simple merci de faire partie de nos vies.
         </p>
+        <Image
+            src='/img/tetb1.jpg'
+            alt="tetb"
+            width={840}
+            height={220}
+            className={styles.imgFront}
+          />
       </div>
       <div className={styles.presentation}>
         <h2 className={styles.h2}>Tout commence par...</h2>

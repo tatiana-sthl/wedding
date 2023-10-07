@@ -24,7 +24,6 @@ const Timeline = () => {
             alt="Landscape picture"
             width={110}
             height={150}
-            className='iconTimeline'
           />
           <div className={styles.divTimeline2}> 
             <h3 className="vertical-timeline-element-title">Eglise</h3>

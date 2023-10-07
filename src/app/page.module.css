@@ -143,3 +143,12 @@
 .pTimeline {
   font-size: 1.2vw!important;
 }
+
+.imgFront {
+  border-radius: 12px;
+  opacity: 0.8;
+}
+
+.textePresentationTest {
+  background-image: url(/public/img/tetb1.jpg);
+}
