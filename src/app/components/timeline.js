@@ -52,14 +52,14 @@ const Timeline = () => {
             <h3 className="vertical-timeline-element-title">Vin d'honneur</h3>
             <h4 className="vertical-timeline-element-subtitle">43 rue Principale Chauffour-lès-Bailly</h4>
             <p className={styles.pTimeline}>
-              Pour se remettre de nos émotions, rendez-vous chez nous
+              Pour se remettre de nos émotions, on se retrouve chez nous
             </p>
           </div>         
         </div>    
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="16h"
+        date="18h"
         dateClassName={styles.verticaltimelineelementdate}
         iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}       
       >
@@ -81,7 +81,7 @@ const Timeline = () => {
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="16h"
+        date="19h"
         dateClassName={styles.verticaltimelineelementdate}
         iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}       
       >
@@ -93,10 +93,10 @@ const Timeline = () => {
             height={100}
           />
           <div className={styles.divTimeline2}> 
-            <h3 className="vertical-timeline-element-title">Vin d'honneur</h3>
-            <h4 className="vertical-timeline-element-subtitle">43 rue Principale Chauffour-lès-Bailly</h4>
+            <h3 className="vertical-timeline-element-title">Repas et Soirée</h3>
+            <h4 className="vertical-timeline-element-subtitle">Ferme de Varencey</h4>
             <p className={styles.pTimeline}>
-              Pour se remettre de nos émotions, rendez-vous chez nous !
+              Ne reste plus qu'à profiter du repas et de la longue nuit de festivités
             </p>
           </div>         
         </div>    
