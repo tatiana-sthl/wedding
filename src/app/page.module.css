@@ -146,6 +146,8 @@
 
 .divTimeline {
   display: flex!important;
+  align-items: center!important;
+
 }
 
 .divTimeline2 {
@@ -156,9 +158,11 @@
 
 .pTimeline {
   font-size: 1.2vw!important;
+  padding-left: 1vw;
 }
 
 .imgFront {
   border-radius: 12px;
   opacity: 0.8;
 }
+

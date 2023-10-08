@@ -23,7 +23,7 @@ const Timeline = () => {
             src='/img/eglise.jpg'
             alt="Landscape picture"
             width={110}
-            height={150}
+            height={140}
           />
           <div className={styles.divTimeline2}> 
             <h3 className="vertical-timeline-element-title">Eglise</h3>
@@ -47,7 +47,6 @@ const Timeline = () => {
             alt="vin d'honneur"
             width={120}
             height={100}
-            className='iconTimeline'
           />
           <div className={styles.divTimeline2}> 
             <h3 className="vertical-timeline-element-title">Eglise</h3>
