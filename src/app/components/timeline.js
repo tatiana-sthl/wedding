@@ -49,39 +49,57 @@ const Timeline = () => {
             height={100}
           />
           <div className={styles.divTimeline2}> 
-            <h3 className="vertical-timeline-element-title">Eglise</h3>
-            <h4 className="vertical-timeline-element-subtitle">Chauffour-lès-Bailly</h4>
+            <h3 className="vertical-timeline-element-title">Vin d'honneur</h3>
+            <h4 className="vertical-timeline-element-subtitle">43 rue Principale Chauffour-lès-Bailly</h4>
             <p className={styles.pTimeline}>
-              Rendez-vous pour la cérémonie religieuse
+              Pour se remettre de nos émotions, rendez-vous chez nous
             </p>
           </div>         
         </div>    
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="18h"
+        date="16h"
         dateClassName={styles.verticaltimelineelementdate}
-        iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}
-        
+        iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}       
       >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-        <p>
-          User Experience, Visual Design
-        </p>
+        <div className={styles.divTimeline}>
+          <Image
+            src='/img/trajet.jpg'
+            alt="trajet"
+            width={140}
+            height={120}
+          />
+          <div className={styles.divTimeline2}> 
+            <h3 className="vertical-timeline-element-title">Départ</h3>
+            <h4 className="vertical-timeline-element-subtitle">Ferme de Varencey 52120 Laferté s/ Aube</h4>
+            <p className={styles.pTimeline}>
+              En route pour le repas... et la soirée !
+            </p>
+          </div>         
+        </div>    
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        date="19h"
+        date="16h"
         dateClassName={styles.verticaltimelineelementdate}
-        iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}
-        
+        iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}       
       >
-        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-        <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-        <p>
-          User Experience, Visual Design
-        </p>
+        <div className={styles.divTimeline}>
+          <Image
+            src='/img/repas.jpg'
+            alt="vin d'honneur"
+            width={120}
+            height={100}
+          />
+          <div className={styles.divTimeline2}> 
+            <h3 className="vertical-timeline-element-title">Vin d'honneur</h3>
+            <h4 className="vertical-timeline-element-subtitle">43 rue Principale Chauffour-lès-Bailly</h4>
+            <p className={styles.pTimeline}>
+              Pour se remettre de nos émotions, rendez-vous chez nous !
+            </p>
+          </div>         
+        </div>    
       </VerticalTimelineElement>
     </VerticalTimeline>
   );

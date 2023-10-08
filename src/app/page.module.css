@@ -156,6 +156,12 @@
   color: #263248;
 }
 
+.divTimeline2 h4{
+  align-self: center;
+  font-size: 1.2vw;
+  color: #263248;
+}
+
 .pTimeline {
   font-size: 1.2vw!important;
   padding-left: 1vw;
@@ -165,4 +171,5 @@
   border-radius: 12px;
   opacity: 0.8;
 }
+
 
