@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600;6..96,700&family=Josefin+Sans:wght@100;200;300;400&family=Syne:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600;6..96,700&family=Josefin+Sans:wght@100;200;300;400&family=Staatliches&family=Syne:wght@400;500;600&display=swap');
 
 .customBackground {
   background-color: #263248e6;
@@ -79,7 +79,7 @@
 }
 
 .textePresentation {
-  background-color: #ffffffe5;
+  background-color: #ffffff;
   padding: 2vw 6vw;
   border-radius: 12px;
   margin: 3vw 0;
@@ -88,9 +88,25 @@
 
 .dateH1 {
   color: #263248;
-  font-family: 'Bodoni Moda', serif;
-  font-size: 59px;
+  font-family: 'Staatliches', cursive;
+  font-size: 5vw;
   text-align: center;
+  position: relative;
+}
+
+.dateH1::before {
+  content: "7 septembre";
+  position: absolute;
+  color: #d9cdb7;
+  top:0;
+  right: -2vw;
+  width:0%;
+  overflow:hidden;
+  transition:all 0.1s;
+}
+
+.dateH1:hover:before{
+  width:100%;
 }
 
 .pPresentation {
@@ -101,25 +117,26 @@
 }
 
 .h1 {
-  font-family: 'Bodoni Moda', serif;
-  font-size: 59px;
+  font-family: 'Staatliches', cursive;
+  font-size: 4vw;
   text-align: center;
   color:#fff;
 }
 
 .h2 {
-  font-family: 'Bodoni Moda', serif;
-  font-size: 40px;
+  font-family: 'Staatliches', cursive;
+  font-size: 3vw;
 }
 
 .h2Right {
-  font-family: 'Bodoni Moda', serif;
-  font-size: 40px;
+  font-family: 'Staatliches', cursive;
+  font-size: 3vw;
   text-align: right;
+  color: #263248;
 }
 
 .h2rsvp {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Staatliches', cursive;
   font-size: 40px;
   text-align: center;
   margin: 0;

@@ -40,8 +40,8 @@ export default function Home() {
         <h2 className={styles.h2}>Tout commence par...</h2>
         <Timeline />
       </div>
-      <div className={styles.presentation}>
-        <h2 className={styles.h2Right}>Et pour se loger</h2>
+      <div className={styles.textePresentation}>
+        <h2 className={styles.h2Right}>Et pour se loger ?</h2>
         <Logements />
       </div>
       <div className={styles.presentation}>
