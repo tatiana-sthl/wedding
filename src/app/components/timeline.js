@@ -10,13 +10,13 @@ const Timeline = () => {
     
 
     <VerticalTimeline
-      lineColor='rgb(109, 158, 130, 0.5)'
+      lineColor='#d9cdb7'
     >      
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date="15h"
         dateClassName={styles.verticaltimelineelementdate}
-        iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}
+        iconStyle={{ background: '#d9cdb7', color: '#fff' }}
       >
         <div className={styles.divTimeline}>
           <Image
@@ -39,7 +39,7 @@ const Timeline = () => {
         className="vertical-timeline-element--work"
         date="16h"
         dateClassName={styles.verticaltimelineelementdate}
-        iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}       
+        iconStyle={{ background: '#d9cdb7', color: '#fff' }}       
       >
         <div className={styles.divTimeline}>
           <Image
@@ -61,7 +61,7 @@ const Timeline = () => {
         className="vertical-timeline-element--work"
         date="18h"
         dateClassName={styles.verticaltimelineelementdate}
-        iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}       
+        iconStyle={{ background: '#d9cdb7', color: '#fff' }}       
       >
         <div className={styles.divTimeline}>
           <Image
@@ -83,7 +83,7 @@ const Timeline = () => {
         className="vertical-timeline-element--work"
         date="19h"
         dateClassName={styles.verticaltimelineelementdate}
-        iconStyle={{ background: 'rgb(109, 158, 130, 1)', color: '#fff' }}       
+        iconStyle={{ background: '#d9cdb7', color: '#fff' }}       
       >
         <div className={styles.divTimeline}>
           <Image
