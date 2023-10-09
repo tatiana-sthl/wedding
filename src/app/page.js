@@ -41,7 +41,7 @@ export default function Home() {
         <Timeline />
       </div>
       <div className={styles.textePresentation}>
-        <h2 className={styles.h2Right}>Et pour se loger ?</h2>
+        <h2 className={styles.h2Right}>Vous souhaitez en savoir plus ?</h2>
         <Logements />
       </div>
       <div className={styles.presentation}>
