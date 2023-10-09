@@ -15,9 +15,9 @@ export default function Home() {
       <nav className={styles.nav}>
         <ul className={styles.ul}>
           <li className='home'><a href="#">Tatiana & Baptiste</a></li>
-          <li className='center'><a href="#">Programme</a></li>
-          <li className='upward'><a href="#">Infos pratiques</a></li>
-          <li className='forward'><a href="#">RSVP</a></li>
+          <li className='center'><a href="#timeline">Programme</a></li>
+          <li className='upward'><a href="#moreInfo">Infos pratiques</a></li>
+          <li className='forward'><a href="#form">RSVP</a></li>
         </ul>
       </nav>
 
@@ -36,15 +36,15 @@ export default function Home() {
             className={styles.imgFront}
           />
       </div>
-      <div className={styles.presentation}>
+      <div id='timeline' className={styles.presentation}>
         <h2 className={styles.h2}>Tout commence par...</h2>
         <Timeline />
       </div>
-      <div className={styles.textePresentation}>
+      <div id='moreInfo' className={styles.textePresentation}>
         <h2 className={styles.h2Right}>Vous souhaitez en savoir plus ?</h2>
         <Logements />
       </div>
-      <div className={styles.presentation}>
+      <div id='form' className={styles.presentation}>
         <h2 className={styles.h2}>Alors, vous venez ?</h2>
         <Rsvp />
       </div>
