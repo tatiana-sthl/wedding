@@ -1,6 +1,6 @@
 'use client';
 import Timeline  from './components/timeline';
-import Logements  from './components/logements';
+import Infos  from './components/infos';
 import Rsvp  from './components/rsvp';
 
 import styles from './page.module.css';
@@ -42,7 +42,7 @@ export default function Home() {
       </div>
       <div id='moreInfo' className={styles.textePresentation}>
         <h2 className={styles.h2Right}>Vous souhaitez en savoir plus ?</h2>
-        <Logements />
+        <Infos />
       </div>
       <div id='form' className={styles.presentation}>
         <h2 className={styles.h2}>Alors, vous venez ?</h2>

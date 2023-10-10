@@ -52,6 +52,7 @@
   transition: all 0.4s ease;
 }
 
+.ul li a:active:before,
 .ul li a:hover:before {
   width: 100%;
 }
@@ -196,4 +197,13 @@
   opacity: 0.8;
 }
 
+.h2Infos {
+  color: #263248;
+  margin-top: 2vw;
+}
+
+.ulInfos {
+  color: #263248;
+  font-size: 1.2vw
+}
 
