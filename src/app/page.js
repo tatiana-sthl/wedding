@@ -31,7 +31,7 @@ export default function Home() {
         <Image
             src='/img/tetb1.jpg'
             alt="tetb"
-            width={840}
+            width={820}
             height={220}
             className={styles.imgFront}
           />

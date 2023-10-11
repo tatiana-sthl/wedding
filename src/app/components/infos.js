@@ -14,7 +14,7 @@ const Infos = () => {
 
         <h2 className={styles.h2Infos}>Et pour le logement, ça se passe comment ?</h2>
         <p className={styles.ulInfos}>Nous sommes en Haute-Marne, ce n'est donc pas la folie en terme de logements à louer MAIS l'avantage c'est que ce sont généralement de très grandes maisons pour beaucoup d'invités.</p>
-        <p className={styles.ulInfos}>Nous avons essayé de répertorier les logements </p>
+        <p className={styles.ulInfos}>Nous avons essayé de répertorier les logements à proximité (entendez à moins de 10 minutes en voiture). Les autres logements sont plus éloignés, pensez à réserver rapidement ceux sur la carte. Merci d'avance pour le sacrifice des SAM. </p>
         <iframe src="https://www.google.com/maps/d/embed?mid=1yGgdbOFtIHCObumcn4GK_3Z43b0NpS8&ehbc=2E312F&noprof=1" width="820" height="480"></iframe>
         <h2 className={styles.h2Infos}>On parle du lendemain :</h2>      
         <p className={styles.ulInfos}>Pour ceux qui le veulent, nous serions heureux de vous revoir le lendemain à partir de 11h (avant nous ne serons pas apte). Tout se fera à la bonne franquette (comprenez buffet de restes), et nous prévoyons des compétitions acharnées de Molky et de pétanque. Alors venez, pour profiter encore un peu.</p>
