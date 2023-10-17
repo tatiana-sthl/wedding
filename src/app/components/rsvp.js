@@ -66,6 +66,11 @@ const Rsvp = () => {
             
       <div className={styles.formGroupTextarea}>
         <label className={styles.label} htmlFor="message">Message :</label>
+        <ul>
+          Merci de préciser dans le mail : 
+          <li>le nombre de personnes qui seront présentes ainsi que leur nom complet. </li>
+          <li>le nombre d'enfants ainsi que leur âge.</li>
+        </ul>
         <textarea
           id="message"
           name="message"
