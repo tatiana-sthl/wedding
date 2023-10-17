@@ -38,36 +38,43 @@ const Rsvp = () => {
   
   return (
     <form className={styles.contactForm} onSubmit={handleSubmit}>
-      <div className={styles.formGroup}>
-        <label htmlFor="name">Nom :</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-        />
+      <div className={styles.mailInfos}>
+        <div className={styles.formGroup}>
+          <label className={styles.label} htmlFor="email">Email :</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            className={styles.input}
+          />
+        </div>
+
+        <div className={styles.formGroup}>
+          <label className={styles.label} htmlFor="name">Nom :</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            className={styles.input}
+          />
+        </div>
       </div>
-      <div className={styles.formGroup}>
-        <label htmlFor="email">Email :</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-      </div>
-      <div className={styles.formGroup}>
-        <label htmlFor="message">Message :</label>
+            
+      <div className={styles.formGroupTextarea}>
+        <label className={styles.label} htmlFor="message">Message :</label>
         <textarea
           id="message"
           name="message"
           value={formData.message}
           onChange={handleChange}
+          className={styles.textarea}
         />
       </div>
-      <button type="submit">Envoyer</button>
+      <button className={styles.button} type="submit">Envoyer</button>
     </form>
   );
 };
