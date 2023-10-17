@@ -48,6 +48,7 @@ const Rsvp = () => {
             value={formData.email}
             onChange={handleChange}
             className={styles.input}
+            placeholder='exemple@gmail.com'
           />
         </div>
 
@@ -60,6 +61,7 @@ const Rsvp = () => {
             value={formData.name}
             onChange={handleChange}
             className={styles.input}
+            placeholder='Petit Prince'
           />
         </div>
       </div>
@@ -77,6 +79,13 @@ const Rsvp = () => {
           value={formData.message}
           onChange={handleChange}
           className={styles.textarea}
+          placeholder=
+          {`Bonjour vous deux,
+          Nous serons trois pour le vin d'honneur/repas :
+          - L'empereur
+          - Sa femme
+          - Le petit prince (5 ans)
+          Au plaisir d'y être !`}
         />
       </div>
       <button className={styles.button} type="submit">Envoyer</button>
