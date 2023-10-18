@@ -48,6 +48,9 @@ export default function Home() {
         <h2 className={styles.h2}>Alors, vous venez ?</h2>
         <Rsvp />
       </div>
+      <div className={styles.footer}>
+        <p>&copy;2023 - Tatiana&Baptiste</p>
+      </div>
     </main>
   )
 }

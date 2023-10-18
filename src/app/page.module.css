@@ -230,7 +230,7 @@
 }
 
 .input, .textarea {
-  width: 100%;
+  width: 94%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -240,6 +240,7 @@
 .textarea {
   height: 10vw;
   font-size: 20px;
+  width: 98%!important;
 }
 
 .button {
@@ -265,5 +266,12 @@
   border: none;
   border-radius: 4px;
   margin: 2vw 13vw 2vw 14vw;
+}
+
+.footer {
+  padding: 1vw;
+  margin: 3vw 0 0 0;
+  border-top: #d9cdb7 solid 1px;
+  text-align: center;
 }
 
