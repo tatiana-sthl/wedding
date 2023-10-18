@@ -2,6 +2,7 @@
 import Timeline  from './components/timeline';
 import Infos  from './components/infos';
 import Rsvp  from './components/rsvp';
+import Menu from './components/menu';
 
 import styles from './page.module.css';
 import './components/countdown.js';
@@ -9,18 +10,10 @@ import Image from 'next/image'
 
 
 export default function Home() {
- 
+
   return (
     <main className={styles.main}>
-      <nav className={styles.nav}>
-        <ul className={styles.ul}>
-          <li className='home'><a href="#">Tatiana & Baptiste</a></li>
-          <li className='center'><a href="#timeline">Programme</a></li>
-          <li className='upward'><a href="#moreInfo">Infos pratiques</a></li>
-          <li className='forward'><a href="#form">RSVP</a></li>
-        </ul>
-      </nav>
-
+      <Menu />
       <div className={styles.textePresentation}>
         <h1 className={styles.dateH1}>Samedi 7 septembre 2024</h1>
         <p className={styles.pPresentation}>

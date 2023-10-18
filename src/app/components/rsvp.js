@@ -82,7 +82,8 @@ const Rsvp = () => {
             onChange={handleChange}
             className={styles.textarea}
             placeholder=
-            {`Bonjour vous deux,
+            {`
+            Bonjour vous deux,
             Nous serons trois pour le vin d'honneur/repas :
             - L'empereur
             - Sa femme
