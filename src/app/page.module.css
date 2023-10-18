@@ -278,9 +278,21 @@
 
 /*mobile*/
 @media (max-width: 768px) {
+  .main {
+    margin: 1vw;
+  }
   .imgFront {
     width: 100%;
     object-fit: cover;
+  }
+  .ulInfos {
+    font-size: 4.2vw;
+  }
+  .h2 {
+    font-size: 10vw;
+  }
+  .h2Right {
+    font-size: 10vw;
   }
   .iframe {
     width: 100%;
