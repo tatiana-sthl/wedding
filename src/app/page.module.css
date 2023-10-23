@@ -10,6 +10,15 @@
   color: #ffffff;
 }
 
+.hamburgerButton {
+  display: none;
+}
+
+.open {
+  display: block !important; /* Afficher le menu lorsque la classe open est active */
+  transition: transform 0.3s ease-in-out;
+}
+
 .nav {
   position: sticky;
   top: 0;
@@ -296,5 +305,40 @@
   }
   .iframe {
     width: 100%;
+  }
+
+  .hamburgerButton {
+    display: block; /* Affichez le bouton sur les écrans plus petits */
+  }
+
+  /* Styles spécifiques pour le menu déroulant */
+  .nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #333; /* Couleur de fond du menu */
+    width: 200px; /* Largeur du menu, ajustez-la selon vos besoins */
+    transform: translateX(100%);
+  }
+
+  .nav ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav ul li {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Styles pour animer l'ouverture du menu */
+  .nav.open {
+    transform: translateX(0)!important;
   }
 }
