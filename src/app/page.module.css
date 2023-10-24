@@ -286,19 +286,155 @@
   .main {
     margin: 1vw;
   }
+
+  .nav {
+    display: none;
+  }
+
+  .navbar {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+    .containermenu {
+        max-width: 1050px;
+        width: 90%;
+        margin: auto;
+    }
+      
+      
+    .navcontainermenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 62px;
+    }
+      
+    .navbar .navcontainermenu li {
+        list-style: none;
+    }
+      
+      .navbar .navcontainermenu a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        font-size: 4vw;
+      }
+      
+      .navbar .navcontainermenu a:hover{
+          font-weight: bolder;
+      }
+      
+      .navcontainermenu {
+        display: block;
+        position: relative;
+        height: 60px;
+      }
+      
+      .navcontainermenu .checkbox {
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 32px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+        cursor: pointer;
+      }
+      
+      .navcontainermenu .hamburgerlines {
+        display: block;
+        height: 26px;
+        width: 32px;
+        position: absolute;
+        top: 17px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+      .navcontainermenu .hamburgerlines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: black;
+      }
+      
+      .navcontainermenu .hamburgerlines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+      }
+      
+      .navcontainermenu .hamburgerlines .line2 {
+        transition: transform 0.2s ease-in-out;
+      }
+      
+      .navcontainermenu .hamburgerlines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+      }
+      
+      .navbar .menuitems {
+        padding-top: 22vw;
+        background-image: url(http://evekinesio.fr/wp-content/uploads/2023/10/greenbg.png);
+        height: 105vh;
+        width: 100%;
+        transform: translate(-150%);
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.5s ease-in-out;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      
+      .navbar .menuitems li {
+        margin-bottom: 1rem;
+      }
+      
+    .navcontainermenu input[type="checkbox"]:checked ~ .menuitems {
+        transform: translateX(0);
+    }
+    
+    .navcontainermenu input[type="checkbox"]:checked ~ .hamburgerlines .line1 {
+        transform: rotate(45deg);
+    }
+    
+    .navcontainermenu input[type="checkbox"]:checked ~ .hamburgerlines .line2 {
+        transform: scaleY(0);
+    }
+    
+    .navcontainermenu input[type="checkbox"]:checked ~ .hamburgerlines .line3 {
+        transform: rotate(-45deg);
+    }
+    
+    .navcontainermenu input[type="checkbox"]:checked ~ .logo{
+        display: none;
+    }
+
   .imgFront {
     width: 100%;
     object-fit: cover;
   }
+
   .ulInfos {
     font-size: 4.2vw;
   }
+
   .h2 {
     font-size: 10vw;
   }
+
   .h2Right {
     font-size: 10vw;
   }
+
   .iframe {
     width: 100%;
   }
