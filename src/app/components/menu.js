@@ -19,11 +19,10 @@ function Menu() {
               <span className={`${styles.line} ${styles.line3}`}></span>
             </div>  
           <div className={styles.menuitems}>
-            <li><a href="#">Presentation</a></li>
-            <li><a href="#">Mes pratiques</a></li>
-            <li><a href="#">Avis</a></li>
-            <li><a href="#">Planning</a></li>
-            <li><a href="#">Me contacter</a></li>
+            <li><a href="#">Tatiana & Baptiste</a></li>
+            <li><a href="#timeline">Programme</a></li>
+            <li><a href="#moreInfo">Infos pratiques</a></li>
+            <li><a href="#form">RSVP</a></li>
           </div>
         </div>
       </div>
