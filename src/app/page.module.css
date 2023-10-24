@@ -318,7 +318,7 @@
       
       .navbar .navcontainermenu a {
         text-decoration: none;
-        color: black;
+        color: #263248;
         font-weight: 600;
         font-size: 4vw;
       }
@@ -363,7 +363,7 @@
         height: 4px;
         width: 100%;
         border-radius: 10px;
-        background: black;
+        background: #ffffff;
       }
       
       .navcontainermenu .hamburgerlines .line1 {
@@ -382,7 +382,7 @@
       
       .navbar .menuitems {
         padding-top: 22vw;
-        background-image: url(http://evekinesio.fr/wp-content/uploads/2023/10/greenbg.png);
+        background-color: #d9cdb7;
         height: 105vh;
         width: 100%;
         transform: translate(-150%);
