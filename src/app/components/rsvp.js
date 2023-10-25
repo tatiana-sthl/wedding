@@ -82,13 +82,7 @@ const Rsvp = () => {
             onChange={handleChange}
             className={styles.textarea}
             placeholder=
-            {`
-            Bonjour vous deux,
-            Nous serons trois pour le vin d'honneur/repas :
-            - L'empereur
-            - Sa femme
-            - Le petit prince (5 ans)
-            Au plaisir d'y être !`}
+            {`Bonjour vous deux, Nous serons trois pour le vin d'honneur/repas. Il y aura l'empereur, sa femme et le petit prince de 5 ans. Au plaisir de vous voir !`}
           />
         </div>
         <div className={styles.formButton}>

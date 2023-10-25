@@ -455,4 +455,16 @@
     font-size: 3vw!important;
   }
 
+  .mailInfos {
+    display: block;
+  }
+
+  .formGroup {
+    width: auto;
+  }
+
+  .textarea {
+    height: 55vw;
+  }
+
 }
