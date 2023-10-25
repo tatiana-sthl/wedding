@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Menu />
-      <div className={styles.textePresentation}>
+      <div id='presentation' className={styles.textePresentation}>
         <h1 className={styles.dateH1}>Samedi 7 septembre 2024</h1>
         <p className={styles.pPresentation}>
           Enfin ! Après 10 ans de vie commune (12 quand nous serons à la date du mariage), nous allons nous marier et nous n’avons qu’une hâte, pouvoir le fêter avec vous. 
