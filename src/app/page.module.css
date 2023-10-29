@@ -202,6 +202,8 @@
 .imgFront {
   border-radius: 12px;
   opacity: 0.8;
+  width: 100%;
+  object-fit: cover;
 }
 
 .h2Infos {
@@ -213,6 +215,10 @@
   color: #263248;
   font-size: 1.2vw;
   text-align: justify ;
+}
+
+.iframe {
+  width: 100%;
 }
 
 
@@ -280,6 +286,10 @@
   margin: 3vw 0 0 0;
   border-top: #d9cdb7 solid 1px;
   text-align: center;
+}
+
+.countdownTimer {
+  color: #263248!important;
 }
 
 /*mobile*/
