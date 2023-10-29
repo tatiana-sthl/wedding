@@ -48,19 +48,19 @@ function Countdown() {
       <div className={styles.countdown}>
         <div>
           <span className={styles.number}>{timeRemaining.days}</span>
-          <span>Jours</span>
+          <span className={styles.textCountdown}>Jours</span>
         </div>
         <div>
           <span className={styles.number}>{timeRemaining.hours}</span>
-          <span>Heures</span>
+          <span className={styles.textCountdown}>Heures</span>
         </div>
         <div>
           <span className={styles.number}>{timeRemaining.minutes}</span>
-          <span>Minutes</span>
+          <span className={styles.textCountdown}>Minutes</span>
         </div>
         <div>
           <span className={styles.number}>{timeRemaining.seconds}</span>
-          <span>Secondes</span>
+          <span className={styles.textCountdown}>Secondes</span>
         </div>
       </div>
     </div>

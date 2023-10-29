@@ -104,23 +104,9 @@
   color: #263248;
   font-family: 'Staatliches', cursive;
   font-size: 5vw;
+  margin: 1rem 0;
   text-align: center;
   position: relative;
-}
-
-.dateH1::before {
-  content: "7 septembre";
-  position: absolute;
-  color: #d9cdb7;
-  top:0;
-  right: -2vw;
-  width:0%;
-  overflow:hidden;
-  transition:all 1.5s;
-}
-
-.dateH1:hover:before{
-  width:100%;
 }
 
 .pPresentation {
@@ -204,6 +190,7 @@
   opacity: 0.8;
   width: 100%;
   object-fit: cover;
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.25);
 }
 
 .h2Infos {
@@ -288,9 +275,36 @@
   text-align: center;
 }
 
-.countdownTimer {
-  color: #263248!important;
+.countdown{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
+
+.countdown div{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 2rem 0;
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.25);
+  width: 180px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.textCountdown {
+  color: #263248;
+  font-size: 30px;
+}
+
+.number {
+  font-weight: 500;
+  font-size: 70px;
+  color: #CAA78C!important;
+}
+
 
 /*mobile*/
 @media (max-width: 768px) {
