@@ -49,7 +49,7 @@ const Timeline = () => {
             height={100}
           />
           <div className={styles.divTimeline2}> 
-            <h3 className="vertical-timeline-element-title">Vin d'honneur</h3>
+            <h3 className="vertical-timeline-element-title">Vin d&apos;honneur</h3>
             <h4 className="vertical-timeline-element-subtitle">43 rue Principale Chauffour-lès-Bailly</h4>
             <p className={styles.pTimeline}>
               Pour se remettre de nos émotions, on se retrouve chez nous
@@ -96,7 +96,7 @@ const Timeline = () => {
             <h3 className="vertical-timeline-element-title">Repas et Soirée</h3>
             <h4 className="vertical-timeline-element-subtitle">Ferme de Varencey</h4>
             <p className={styles.pTimeline}>
-              Ne reste plus qu'à profiter du repas et de la longue nuit de festivités
+              Ne reste plus qu&apos;à profiter du repas et de la longue nuit de festivités
             </p>
           </div>         
         </div>    

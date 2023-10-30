@@ -1,6 +1,7 @@
 import styles from '../page.module.css';
 import React, { useState } from 'react';
 
+
 const Rsvp = () => {
 
   const [formData, setFormData] = useState({
@@ -73,7 +74,7 @@ const Rsvp = () => {
           <ul>
             Merci de préciser dans le mail : 
             <li>le nombre de personnes qui seront présentes ainsi que leur nom complet. </li>
-            <li>le nombre d'enfants ainsi que leur âge.</li>
+            <li>le nombre d&apos;enfants ainsi que leur âge.</li>
           </ul>
           <textarea
             id="message"

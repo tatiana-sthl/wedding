@@ -8,15 +8,6 @@ function Countdown() {
 
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTimeRemaining(calculateTimeRemaining());
-    }, 1000);
-
-    // Nettoyer l'intervalle lorsque le composant est démonté.
-    return () => clearInterval(interval);
-  }, []);
-
   function calculateTimeRemaining() {
     const now = new Date();
     const difference = targetDate - now;
@@ -42,6 +33,15 @@ function Countdown() {
       seconds,
     };
   }
+// eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTimeRemaining(calculateTimeRemaining());
+    }, 1000);
+
+    // Nettoyer l'intervalle lorsque le composant est démonté.
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div>
