@@ -17,7 +17,7 @@ export default function Home() {
       <Menu />
       <div id='presentation' className={styles.textePresentation}>
         <h1 className={styles.dateH1}>Samedi 7 septembre 2024</h1>
-        <Countdown />
+        {/* <Countdown /> */}
         <p className={styles.pPresentation}>
           Enfin ! Après 10 ans de vie commune (12 quand nous serons à la date du mariage), nous allons nous marier et nous n’avons qu’une hâte, pouvoir le fêter avec vous. 
           Pour cela, vous trouverez sur ce site toutes les informations nécessaire, et surtout le formulaire de confirmation de votre présence.
