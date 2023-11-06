@@ -6,7 +6,7 @@ import Menu from './components/menu';
 
 import styles from './page.module.css';
 import './components/countdown.js';
-import Image from 'next/image'
+import Image from 'next/image';
 import Countdown from './components/countdown.js';
 
 
