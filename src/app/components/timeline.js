@@ -10,7 +10,7 @@ const Timeline = () => {
     
 
     <VerticalTimeline
-      lineColor='red'
+      lineColor='#d9cdb7'
     >      
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
