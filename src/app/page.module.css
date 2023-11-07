@@ -484,6 +484,13 @@
     font-size: 3vw!important;
   }
 
+  .verticaltimelineelementdate {
+    color: #263248!important;
+    opacity: 1!important;
+    font-size: 40px!important;
+    margin-left: 2rem!important;
+  }
+
   .mailInfos {
     display: block;
   }
