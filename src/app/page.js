@@ -1,7 +1,7 @@
 'use client';
 import Timeline  from './components/timeline';
 import Infos  from './components/infos';
-import Rsvp  from './components/rsvp';
+import ContactForm  from './components/contactform';
 import Menu from './components/menu';
 
 import styles from './page.module.css';
@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <div id='form' className={styles.presentation}>
         <h2 className={styles.h2}>Alors, vous venez ?</h2>
-        <Rsvp />
+        <ContactForm />
       </div>
       <div className={styles.footer}>
         <p>&copy;2023 - Tatiana&Baptiste</p>
