@@ -2,7 +2,7 @@
 
 
 .customBackground {
-  background-color: #263248e6;
+  background-color: #18391E;
 }
 
 .main {
@@ -43,7 +43,7 @@
   font-weight: 500;
   padding: 6px 0;
   text-decoration: none;
-  color: #263248;
+  color: #18391E;
 }
 
 .ul li a:before {
@@ -101,7 +101,7 @@
 }
 
 .dateH1 {
-  color: #263248;
+  color: #18391E;
   font-family: 'Staatliches', cursive;
   font-size: 4vw;
   margin: 1rem 0;
@@ -110,7 +110,7 @@
 }
 
 .pPresentation {
-  color: #263248;
+  color: #18391E;
   text-align: justify;
   font-size:x-large;
   line-height: 1.2;
@@ -132,7 +132,7 @@
   font-family: 'Staatliches', cursive;
   font-size: 3vw;
   text-align: right;
-  color: #263248;
+  color: #18391E;
   margin: 0;
 }
 
@@ -171,13 +171,13 @@
 .divTimeline2 {
   align-self: center;
   font-size: 1.5vw;
-  color: #263248;
+  color: #18391E;
 }
 
 .divTimeline2 h4{
   align-self: center;
   font-size: 1.2vw;
-  color: #263248;
+  color: #18391E;
 }
 
 .pTimeline {
@@ -194,12 +194,12 @@
 }
 
 .h2Infos {
-  color: #263248;
+  color: #18391E;
   margin-top: 2vw;
 }
 
 .ulInfos {
-  color: #263248;
+  color: #18391E;
   font-size: 1.2vw;
   text-align: justify ;
 }
@@ -245,7 +245,7 @@
 
 .button {
   background-color: #d9cdb7;
-  color: #263248;
+  color: #18391E;
   font-size: 20px;
   padding: 10px 20px;
   border: none;
@@ -261,7 +261,7 @@
 .success {
   text-align: center;
   background-color: #d9cdb7;
-  color: #263248;
+  color: #18391E;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -295,7 +295,7 @@
 }
 
 .textCountdown {
-  color: #263248;
+  color: #18391E;
   font-size: 30px;
 }
 
@@ -347,7 +347,7 @@
     
   .navbar .navcontainermenu a {
     text-decoration: none;
-    color: #263248;
+    color: #18391E;
     font-weight: 600;
     font-size: 6vw;
     line-height: 3rem;
@@ -485,7 +485,7 @@
   }
 
   .verticaltimelineelementdate {
-    color: #263248!important;
+    color: #18391E!important;
     opacity: 1!important;
     font-size: 40px!important;
     margin-left: 2rem!important;
@@ -513,7 +513,7 @@
   }
   
   .textCountdown {
-    color: #263248;
+    color: #18391E;
     font-size: 15px;
   }
   

@@ -20,7 +20,7 @@ export default function Home() {
         <Countdown />
         <p className={styles.pPresentation}>
           Enfin ! Après 10 ans de vie commune (12 quand nous serons à la date du mariage), nous allons nous marier et nous n’avons qu’une hâte, pouvoir le fêter avec vous. 
-          Pour cela, vous trouverez sur ce site toutes les informations nécessaire, et surtout le formulaire de confirmation de votre présence.
+          Pour cela, vous trouverez sur ce site toutes les informations nécessaires, et surtout le formulaire de confirmation de votre présence.
           Et en attendant le grand jour, un simple merci de faire partie de nos vies.
         </p>
         <Image
