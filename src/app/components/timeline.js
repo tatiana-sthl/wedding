@@ -50,9 +50,9 @@ const Timeline = () => {
           />
           <div className={styles.divTimeline2}> 
             <h3 className="vertical-timeline-element-title">Vin d&apos;honneur</h3>
-            <h4 className="vertical-timeline-element-subtitle">43 rue Principale Chauffour-lès-Bailly</h4>
+            <h4 className="vertical-timeline-element-subtitle">Salle des fêtes Chauffour-lès-Bailly</h4>
             <p className={styles.pTimeline}>
-              Pour se remettre de nos émotions, on se retrouve chez nous
+              Pour se remettre de nos émotions, on se retrouve à la salle des fêtes
             </p>
           </div>         
         </div>    
